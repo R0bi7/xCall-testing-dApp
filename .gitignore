@@ -1,0 +1,6 @@
+.idea
+.env
+keystore
+src/test_reports/**
+node_modules
+package-lock.json

@@ -1,0 +1,26 @@
+{
+  "name": "dapp",
+  "version": "1.0.0",
+  "description": "xCall dApp showcase",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-types": "typechain --target ethers-v5  \"**/*.abi.json\""
+  },
+  "author": "Robi7",
+  "license": "ISC",
+  "devDependencies": {
+    "icon-sdk-js": "^1.4.3",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.2.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@typechain/ethers-v5": "^11.0.0",
+    "dotenv": "^16.1.4",
+    "ethers": "5.7.2"
+  }
+}
