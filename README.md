@@ -1,4 +1,12 @@
-# xCall focus testing repository
+<p align="center">
+  <img 
+    src="./icon_img.png" 
+    alt="Icon logo">
+</p>
+
+# xCall testing dApp
+
+This project contains simple xCall testing dApp written in Typescript. 
 
 ## Prerequisites
 
