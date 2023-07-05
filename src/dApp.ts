@@ -12,7 +12,7 @@ async function main() {
 
     // EXAMPLE: icon to bsc no rollback
     // let message = abiCoder.encode([ "uint8", "bytes" ], [ 0, ethers.utils.toUtf8Bytes("Hello World") ]);
-    // await xCallService.sendCallMessage(Network.icon, Network.bsc, message, true , true);
+    // await xCallService.sendCallMessage(Network.icon, Network.bsc, message);
 
     // EXAMPLE: icon to bsc with rollback
     // let message = abiCoder.encode([ "uint8", "bytes" ], [ 0, ethers.utils.toUtf8Bytes("revertMessage") ]);
